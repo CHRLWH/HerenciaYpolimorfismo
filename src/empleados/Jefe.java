@@ -21,7 +21,7 @@ public class Jefe extends Empleado {
     }
     void mostrar(){
        super.mostrar();
-        System.out.println("\nPresupuesto= "+presupuesto);
+        System.out.println("Presupuesto= "+presupuesto+"\n");
     }
 
 }
