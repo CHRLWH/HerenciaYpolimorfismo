@@ -6,8 +6,7 @@ public class main {
         empleado1.mostrar();
 
         Jefe empleado2 = new Jefe(2111222233,2777, "David");
-        empleado2.mostrar();
 
-        Empleado.cuantosEmpleadosHay();
+        empleado2.mostrarCodigoEmpleado();
     }
 }

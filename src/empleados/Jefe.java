@@ -24,4 +24,6 @@ public class Jefe extends Empleado {
         System.out.println("Presupuesto= "+presupuesto+"\n");
     }
 
+
+
 }
