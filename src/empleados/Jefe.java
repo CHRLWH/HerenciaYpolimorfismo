@@ -11,6 +11,7 @@ public class Jefe extends Empleado {
     //CONSTRUCTS
 
     public Jefe(int presupuesto, int sueldo, String nombre){
+        //Llama al constructor de la clase padre (Empleado)
         super(nombre,sueldo);
         this.presupuesto = presupuesto;
 
@@ -20,6 +21,7 @@ public class Jefe extends Empleado {
        this.presupuesto = ppto;
     }
     void mostrar(){
+        //LLama al metodo mostrar de la clase padre (Empleado)
        super.mostrar();
         System.out.println("Presupuesto= "+presupuesto+"\n");
     }

@@ -9,7 +9,7 @@ public class Currito extends Empleado{
     //CONSTRUCTS
 
     public Currito(String nombreJefe, int sueldo, String nombre){
-
+        //Llama al constructor de la clase padre (Empleado)
         super(nombre,sueldo);
         this.nombreJefe = nombreJefe;
 
@@ -21,6 +21,7 @@ public class Currito extends Empleado{
         this.nombreJefe = nombre;
     }
     void mostrar(){
+        //LLama al metodo mostrar de la clase padre (Empleado)
         super.mostrar();
         System.out.println("Nombre del Jefe= "+nombreJefe);
     }
