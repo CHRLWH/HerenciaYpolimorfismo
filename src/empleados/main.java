@@ -23,5 +23,7 @@ public class main {
         //En una lista de tipo de una clase hijo solo podré guardar objetos de esa misma clase.
         ArrayList <Jefe> listaJefes = new ArrayList<>();
         listaJefes.add(jefe2);
+        listaEmpleados.toString();
+        System.out.println(listaEmpleados);
     }
 }
